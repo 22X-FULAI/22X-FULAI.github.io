@@ -9,16 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
 
 Education
 ======
@@ -43,6 +33,7 @@ Academic Projects
 
 
 Honors & Awards
+======
 
 * 2025-2026学年奖学金
 
