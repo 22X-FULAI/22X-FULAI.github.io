@@ -10,7 +10,11 @@ redirect_from:
 {% include base_path %}
 
 
----
+
+
+
+
+
 Education
 ======
 * **本科在读**：南京大学 | 2024级大数据传播
