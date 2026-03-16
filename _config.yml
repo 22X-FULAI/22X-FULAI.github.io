@@ -11,9 +11,9 @@ title                    : "黄梓涵 / 主页"
 title_separator          : "-"
 name                     : "黄梓涵"
 description              : "南京大学大数据传播大二在读"
-url                      : https://22X-FULAI.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ZIHAN-HUANG-22X.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "22X-FULAI.github.io"
+repository               : "ZIHAN-HUANG-22X.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "22X-FULAI"
+  github           : "ZIHAN-HUANG-22X"
   google_plus      :
   keybase          :
   instagram        :
