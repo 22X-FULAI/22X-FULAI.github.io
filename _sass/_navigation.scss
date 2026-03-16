@@ -200,25 +200,31 @@
     color: #fff;
     cursor: pointer;
   }
-   .visible-links {
-     display: flex;        /* 原来的 table 改成 flex */
-     width: 100%;          /* 新增 */
-     justify-content: flex-end; /* 新增：让导航全部靠右 */
-     
-     li {
-       display: table-cell;
-       vertical-align: middle;
-   
-       &:first-child {
-         font-weight: bold;
-         margin-right: auto; /* 关键：把名字固定在左边 */
-         a {
-           margin-left: 0;
-         }
-       }
-     }
-   }
- 
+
+  .visible-links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    li {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child {
+        font-weight: bold;
+        margin-right: auto;
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
     a {
       position: relative;
 
@@ -234,13 +240,13 @@
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+                transform: scaleX(0);
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+                transform: scaleX(1);
       }
     }
   }
