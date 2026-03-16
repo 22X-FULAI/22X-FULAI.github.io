@@ -2,7 +2,7 @@
 ---
 
 ### 🌍 旅游
-![旅游风景1](image/travel1.png)
-![旅游风景2](image/travel2.png)
+![旅游风景1](images/travel1.jpg)
+![旅游风景2](images/travel2.jpj)
 ### 🎬 看电影
-![电影观影1](image/movie1.jpg)
+![电影观影1](images/movie1.jpg)
